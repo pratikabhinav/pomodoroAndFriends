@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "Pomodoro and friends",
+    "version": "1.0",
+    "description": "This is a Pomodoro timer. A custom timer and a 50-10 timer is also available",
+    "icons": {
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "browser_action": {
+        "default_icon": "icon32.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["notifications"],
+    "options_page": "options.html",
+    "background": {
+        "page": "background.html"
+    }
+}
